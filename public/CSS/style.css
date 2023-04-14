@@ -1,0 +1,132 @@
+:root {
+    --main-font-color: white;
+    --main-bg-color: #1b1b1b;
+    /* --main-bg-color: white!important; */
+    --main-font-family: 'Poppins', serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+dl, ol, ul{
+    margin-bottom: 0;
+}
+body {
+    font-family: var(--main-font-family);
+    /* background: var(--main-bg-color); */
+    color: var(--main-font-color);
+    background: var(--main-bg-color)
+    /* background: rgb(30, 39, 42); */
+}
+
+a,
+a:visited,
+i {
+    text-decoration: none;
+    color: var(--main-font-color);
+}
+
+header {
+   
+    padding: 3rem 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 10vh;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+    display: none;
+    /* border: 2px solid purple; */
+    margin: 1rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 5px solid purple; */
+    height: auto;
+    align-items: center;
+    align-items: center   ;
+
+}
+
+#principal {
+    width: 60vw;
+            /* align-self: center; */
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+
+#secondaire {
+    /* border: 2px solid green; */
+    width: 15vw;
+    /* align-self: center; */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 2px solid blue; */
+    text-transform: uppercase;
+}
+
+#principal li :hover , #secondaire :hover{
+    /* background-color: white; */
+    color: #555555;
+    /* text-shadow: -1px -1px 1px rgba(249, 220, 155, 1),1px 1px 1px rgba(71, 39, 14, 1); */
+    /* text-decoration: underline; */
+    transition: 0.3s;
+
+}
+
+.single-item {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    /* border: 1px solid red; */
+    
+}
+.single-item .quizz{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../public/assets/fondquizz.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.single-item img{
+    width :100%!important;
+    height: auto;
+}
+.single-item button{
+    display: none;
+}
+.slick-dots li button:before{
+    color : rgba(255, 255, 255, 0.731)!important;
+    font-size: 17px!important;
+}
+.slick-dots{
+}
