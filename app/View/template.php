@@ -43,6 +43,7 @@
     </header>
 
     <?php include($mainTemplate); ?>
+
     <footer></footer>
 
     <script src="https://code.jquery.com/jquery-3.0.0.js"></script>

@@ -4,6 +4,7 @@
     /* --main-bg-color: white!important; */
     --main-font-family: 'Poppins', serif;
 }
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -13,15 +14,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-dl, ol, ul{
+
+dl,
+ol,
+ul {
     margin-bottom: 0;
 }
+
 body {
     font-family: var(--main-font-family);
     /* background: var(--main-bg-color); */
     color: var(--main-font-color);
     background: var(--main-bg-color)
-    /* background: rgb(30, 39, 42); */
+        /* background: rgb(30, 39, 42); */
 }
 
 a,
@@ -32,7 +37,7 @@ i {
 }
 
 header {
-   
+
     padding: 3rem 0;
     position: absolute;
     top: 0;
@@ -64,13 +69,13 @@ nav {
     /* border: 5px solid purple; */
     height: auto;
     align-items: center;
-    align-items: center   ;
+    align-items: center;
 
 }
 
 #principal {
     width: 60vw;
-            /* align-self: center; */
+    /* align-self: center; */
     font-weight: 500;
     letter-spacing: 1px;
 
@@ -91,7 +96,8 @@ nav ul {
     text-transform: uppercase;
 }
 
-#principal li :hover , #secondaire :hover{
+#principal li :hover,
+#secondaire :hover {
     /* background-color: white; */
     color: #555555;
     /* text-shadow: -1px -1px 1px rgba(249, 220, 155, 1),1px 1px 1px rgba(71, 39, 14, 1); */
@@ -106,27 +112,110 @@ nav ul {
     position: absolute;
     top: 0;
     /* border: 1px solid red; */
-    
+
 }
-.single-item .quizz{
+
+
+.single-item .quizz {
     width: 100vw;
     height: 100vh;
     background-image: url("../../public/assets/fondquizz.jpg");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    
+    z-index: -1000;
+    /* font-size: 100px; */
+
 }
-.single-item img{
-    width :100%!important;
+
+.single-item .cannes {
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url("../../public/assets/festivalCanne.jpg"); */
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.single-item img {
+    width: 100% !important;
     height: auto;
 }
-.single-item button{
-    display: none;
+
+.single-item button {
+    /* display: none; */
 }
-.slick-dots li button:before{
-    color : rgba(255, 255, 255, 0.731)!important;
-    font-size: 17px!important;
+
+.slick-dots li button:before {
+    /* position: fixed; */
+    /* background-color: green; */
+    /* top: -100px!important; */
+    color: white !important;
+    font-size: 17px !important;
 }
-.slick-dots{
+
+.slick-dots li.slick-active button:before {
+    color: rgb(178, 70, 43) !important
+}
+
+.content-slider article {
+    font-size: 100px;
+    /* background-color: blue; */
+    width: 20vw;
+    height: auto;
+    font-size: 1rem;
+    position: relative;
+
+
+}
+
+
+.quizz button {
+
+    background-color: rgb(243, 230, 203);
+    background: linear-gradient(170deg, rgba(243,230,203,1) 45%, rgba(206,155,110,1) 100%);
+    text-shadow: -1px -1px 1px rgba(249, 220, 155, 1),1px 1px 1px rgba(71, 39, 14, 0.557);
+    padding: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    color: rgb(178, 70, 43);
+    cursor: pointer;
+   font-weight: bolder;
+    border-radius: 20px;
+
+}
+
+.best-seller {
+    border: 5px solid green;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.best-seller article {
+    border: 5px solid red;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.best-seller article img {
+    width: 100%;
+    height: auto;
+}
+
+.best-seller article h2 {
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.best-seller article span:nth-child(1) {
+    border: 2px solid blue;
+    background-color: red;
+}
+
+.best-seller article span:nth-child(2) {
+    border: 2px solid yellow;
 }
