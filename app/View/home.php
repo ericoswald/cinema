@@ -1,4 +1,4 @@
-<section>
+<section class="carousel">
 
     <div class=" single-item">
 
@@ -9,7 +9,7 @@
                 </button>
             </article>
         </div>
-        <div class=" content-slider">
+        <div class="cannes content-slider">
             <article>
                 <h1>Avant première</h1>
                 <span>Film noir maîtrisé de bout en bout, le quatrième long métrage d'Emin Alper s'attaque avec vigueur
@@ -26,8 +26,9 @@
 
 </section>
 <section class="best-seller">
+    <!-- <h2>Tendance</h2><br> -->
     <article>
-        <img src="../../public/assets/mario.jfif" alt="">
+        <img src="<?= ROOT_URL ?>assets\mario.jfif" alt="">
         <h2>Super Mario Bross</h2>
         <span>Aventure | Cinéma de fantasy</span>
         <br>
@@ -35,7 +36,7 @@
             princesse capturée. Adaptation cinématographique du célèbre jeu vidéo.</span>
     </article>
     <article>
-        <img src="../../public/assets/3mousquetaire.jpg" alt="">
+        <img src="<?= ROOT_URL ?>assets/3mousquetaire.jpg" alt="">
         <h2>Les Trois Mousquetaires </h2>
         <span>Action | Aventure</span>
         <br>
@@ -44,14 +45,14 @@
             croiser leurs épées et lier leur destin à celui de la France.</span>
     </article>
     <article>
-        <img src="../../public/assets/laviepourdevrai.jpg" alt="">
+        <img src="<?= ROOT_URL ?>assets/laviepourdevrai.jpg" alt="">
         <h2>La Vie pour de vrai</h2>
         <span>Comédie</span>
         <br>
         <span>La Vie pour de vrai est une comédie franco-belge réalisée par Dany Boon et sortie en 2023.</span>
     </article>
     <article>
-        <img src="../../public/assets/eavildead.jfif" alt="">
+        <img src="<?= ROOT_URL ?>assets/eavildead.jfif" alt="">
         <h2>Evil Dead Rise</h2>
         <span>Horreur | Cinéma de fantasy</span>
         <br>

@@ -31,4 +31,15 @@ class FrontController
 
         return ob_get_clean();
     }
+    public function quizz(): string
+    {
+        ob_start();
+
+        $mainTemplate = ROOT_PROJECT . '/app/View/quizz.php';
+        
+        require ROOT_PROJECT . '/app/View/template.php';
+
+
+        return ob_get_clean();
+    }
 }
