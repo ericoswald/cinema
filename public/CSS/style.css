@@ -87,6 +87,9 @@ nav {
 .quelfilm a{
     color: var(--couleur-rouge-cine);
     font-weight: bolder;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+
 }
 
 #secondaire {
@@ -136,7 +139,7 @@ nav ul {
 .single-item .quizz {
     width: 100vw;
     height: 100vh;
-    background-image: url("http://cinema.test/assets/fondquizz.jpg");
+    background-image: url("http://cinema.test/public/assets/fondquizz.jpg");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -148,7 +151,16 @@ nav ul {
 .single-item .cannes {
     width: 100vw;
     height: 100vh;
-    background-image: url("http://cinema.test/assets/festivalCanne.jpg");
+    background-image: url("http://cinema.test/public/assets/fond-carrousel.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.single-item .comics {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("http://cinema.test/public/assets/comics.png");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -174,20 +186,30 @@ nav ul {
     color: var(--couleur-rouge-cine) !important
 }
 
+.content-slider{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
 .content-slider article {
     font-size: 100px;
     /* background-color: blue; */
-    width: 20vw;
+    width: 25vw;
+    text-align: center;
     height: auto;
     font-size: 1rem;
     position: relative;
+    top: 10vh;
+    
+   
+
 
 
 }
 
 
 .quizz button {
-
+    margin-top: 5vh;
     background-color: rgb(243, 230, 203);
     background: linear-gradient(170deg, rgba(243,230,203,1) 45%, rgba(206,155,110,1) 100%);
     text-shadow: -1px -1px 1px rgba(249, 220, 155, 1),1px 1px 1px rgba(71, 39, 14, 0.557);
@@ -201,7 +223,7 @@ nav ul {
 }
 
 .best-seller {
-    border: 5px solid green;
+    /* border: 5px solid green; */
     display: flex;
     padding: 0vh 5vh 0vh 5vh;
     justify-content: space-between;
@@ -209,7 +231,7 @@ nav ul {
 }
 
 .best-seller article {
-    border: 5px solid red;
+    /* border: 5px solid red; */
     overflow: hidden;
 padding:0 2vh ;
     width: 20%;
@@ -220,7 +242,7 @@ padding:0 2vh ;
 
 .best-seller article img {
     width: auto;
-    height: 17vh;
+    height: 22vh;
 }
 
 .best-seller article h2 {
@@ -229,7 +251,7 @@ padding:0 2vh ;
 }
 
 .best-seller article h2{
-    font-size: 27px;
+    font-size: 1.4em;
     font-family: 'Oswald', sans-serif;
         text-align: center;
 

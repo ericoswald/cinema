@@ -17,8 +17,8 @@
                 <button>Reserver</button>
             </article>
         </div>
-        <div class=" content-slider">fzezfz</div>
-        <div></div>
+        <div class="comics content-slider">l'essor des films de style comics au cinéma, leur univers cinématographique partagé et les raisons de leur popularité. Si vous êtes curieux de savoir pourquoi ces films ont connu un tel succès.</div>
+        <!-- <div></div> -->
 
 
     </div>
