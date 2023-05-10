@@ -139,7 +139,7 @@ nav ul {
 .single-item .quizz {
     width: 100vw;
     height: 100vh;
-    background-image: url("http://cinema.test/public/assets/fondquizz.jpg");
+    background-image: var(--background-image-1);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
