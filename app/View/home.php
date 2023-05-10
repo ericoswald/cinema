@@ -4,8 +4,8 @@
 
         <div class="quizz content-slider">
             <article>
-                <h1>Quel film est fait pour vous ?</h1>
-                <button class="favorite styled" type="button">Faire le quizz !
+                <h1>Quel film est fait pour vouseezez ?</h1>
+                <a href="quizz"><button class="favorite styled" type="button">Faire le quizz !</a>
                 </button>
             </article>
         </div>

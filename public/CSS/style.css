@@ -31,11 +31,9 @@ body {
         /* background: rgb(30, 39, 42); */
 }
 
-a,
-a:visited,
-i {
+
+a:visited,a{
     text-decoration: none;
-    color: var(--main-font-color);
 }
 
 header {
@@ -74,6 +72,7 @@ nav {
     align-items: center;
     align-items: center;
 
+
 }
 
 #principal {
@@ -81,11 +80,16 @@ nav {
     /* align-self: center; */
     font-weight: 500;
     letter-spacing: 1px;
+   
 
+
+}
+nav a{
+    color: var(--main-font-color);
 }
 
 .quelfilm a{
-    color: var(--couleur-rouge-cine);
+    color: var(--couleur-rouge-cine)!important;
     font-weight: bolder;
     text-decoration: underline;
     text-underline-offset: 5px;
@@ -93,11 +97,21 @@ nav {
 }
 
 #secondaire {
-    /* border: 2px solid green; */
-    width: 15vw;
-    color: red;
-    /* align-self: center; */
+    width: 15vw;  
 }
+#secondaire a {
+
+    transition: 0.3 ease;
+
+}
+
+#secondaire a:hover {
+    /* border: 2px solid green; */
+    /* transform: rotate(350deg);
+    transition: 0.3 ease; */
+
+}
+
 
 nav ul {
     display: flex;
@@ -107,16 +121,23 @@ nav ul {
     /* border: 2px solid blue; */
     text-transform: uppercase;
 }
+#principal li{
+transition: 0.3s ease;
 
-#principal li :hover,
-#secondaire :hover {
-    /* background-color: white; */
+}
+#principal li a:hover{
     color: var(--beige-cine);
-    /* color: #555555; */
-    /* text-shadow: -1px -1px 1px rgba(249, 220, 155, 1),1px 1px 1px rgba(71, 39, 14, 1); */
     text-decoration: underline;
     text-underline-offset: 5px;
-    transition: 0.3s;
+
+}
+#principal li:hover{
+    /* background-color: white; */
+    transform: scale(1.2);
+
+    /* color: #555555; */
+    /* text-shadow: -1px -1px 1px rgba(249, 220, 155, 1),1px 1px 1px rgba(71, 39, 14, 1); */
+    transition: 0.3s ease;
     
 
 }
@@ -217,7 +238,7 @@ nav ul {
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-   font-weight: bolder;
+    font-weight: bolder;
     border-radius: 20px;
 
 }

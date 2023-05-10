@@ -40,9 +40,9 @@
             </ul>
         </nav>
         <nav id="secondaire">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <a href=""><i style="rotate : -45deg" class="fa-solid fa-ticket"></i></a>
-            <a href=""><i class="fa-regular fa-user"></i></a>
+        <a href=""><i class="fa-solid fa-magnifying-glass search-icone"></i></a>
+            <a href=""><i style="rotate : -45deg" class="fa-solid fa-ticket ticket-icon"></i></a>
+            <a href=""><i class="fa-regular fa-user account-icon"></i></a>
         </nav>
     </header>
 
