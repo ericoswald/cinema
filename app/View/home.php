@@ -1,33 +1,42 @@
 <section class="carousel">
 
     <div class=" single-item">
+        <article class="quizz content-slider">
+            <img src="<?= ROOT_URL ?>assets\fondquizz.jpg" alt="">
+            <div>
+                <h1>Quel film est fait pour vous ?</h1>
+                <button class="hvr-buzz favorite styled" type="button"><a href="quizz">Faire le quizz !</a></button>
+                
+            </div>
+        </article>
 
-        <div class="quizz content-slider">
-            <article>
-                <h1>Quel film est fait pour vouseezez ?</h1>
-                <a href="quizz"><button class="favorite styled" type="button">Faire le quizz !</a>
-                </button>
-            </article>
-        </div>
-        <div class="cannes content-slider">
-            <article>
+        <article class="cannes content-slider">
+            <img src="<?= ROOT_URL ?>assets\fond-carrousel.png" alt="">
+            <div class="content-presentation">
                 <h1>Avant première</h1>
                 <span>Film noir maîtrisé de bout en bout, le quatrième long métrage d'Emin Alper s'attaque avec vigueur
                     à la corruption et au conservatisme de la Turquie actuelle.</span>
                 <button>Reserver</button>
-            </article>
-        </div>
-        <div class="comics content-slider">l'essor des films de style comics au cinéma, leur univers cinématographique partagé et les raisons de leur popularité. Si vous êtes curieux de savoir pourquoi ces films ont connu un tel succès.</div>
-        <!-- <div></div> -->
-
-
+            </div>
+        </article>
+        <article class="comics content-slider">
+            <img src="<?= ROOT_URL ?>assets\comics.png" alt="">
+            <div class="content-presentation">
+                <h1>Les comics au cinéma</h1>
+                <span>l'essor des films de style comics au cinéma, leur univers cinématographique
+            partagé et les raisons de leur popularité. Si vous êtes curieux de savoir pourquoi ces films ont connu un
+            tel succès.</span>
+                <button>En savoir plus</button>
+            </div>
+        </article>
     </div>
 
 
 </section>
+<h2>Tendance</h2><br>
 <section class="best-seller">
-    <!-- <h2>Tendance</h2><br> -->
-    <article>
+
+    <article class="slide-1">
         <img src="<?= ROOT_URL ?>assets\mario.jfif" alt="">
         <h2>Super Mario Bross</h2>
         <span>Aventure | Cinéma de fantasy</span>
@@ -35,7 +44,7 @@
         <span>Un plombier nommé Mario parcourt un labyrinthe souterrain avec son frère, Luigi, essayant de sauver une
             princesse capturée. Adaptation cinématographique du célèbre jeu vidéo.</span>
     </article>
-    <article>
+    <article class="slide2">
         <img src="<?= ROOT_URL ?>assets/3mousquetaire.jpg" alt="">
         <h2>Les Trois Mousquetaires </h2>
         <span>Action | Aventure</span>
@@ -44,7 +53,7 @@
             par les guerres de religion et menacé d'invasion par l'Angleterre, une poignée d'hommes et de femmes vont
             croiser leurs épées et lier leur destin à celui de la France.</span>
     </article>
-    <article>
+    <article class="slide-3">
         <img src="<?= ROOT_URL ?>assets/laviepourdevrai.jpg" alt="">
         <h2>La Vie pour de vrai</h2>
         <span>Comédie</span>

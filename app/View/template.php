@@ -14,7 +14,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    <title> </title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers">
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Kalam&display=swap" rel="stylesheet">
+
+    <link href="css/hover.css" rel="stylesheet" media="all">
+
+    <title> <?php echo $title; ?> </title>
 
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -32,7 +38,7 @@
         <a href=<?= "home" ?>><img src="<?= ROOT_URL ?>assets\logocinema.png" alt="LogoDuSite"></a>
         <nav id="principal">
             <ul>
-                <li><a href="">films</a></li>
+                <li><a href="films">films</a></li>
                 <li><a href="">salles</a></li>
                 <li><a href="">événements</a></li>
                 <li><a href="">cartes et offres</a></li>
@@ -40,7 +46,7 @@
             </ul>
         </nav>
         <nav id="secondaire">
-        <a href=""><i class="fa-solid fa-magnifying-glass search-icone"></i></a>
+        <a href="films"><i class="fa-solid fa-magnifying-glass search-icone"></i></a>
             <a href=""><i style="rotate : -45deg" class="fa-solid fa-ticket ticket-icon"></i></a>
             <a href=""><i class="fa-regular fa-user account-icon"></i></a>
         </nav>

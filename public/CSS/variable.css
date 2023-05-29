@@ -1,5 +1,5 @@
 :root {
-    --background-image-1: url(http://localhost/cinema/public/assets/fondquizz.jpg);
-    --background-image-2: #ff0000;
-    --background-image-3: #ff0000;
+    --background-image-1: url(http://cinema.test/assets/fondquizz.jpg);
+    --background-image-2: url(http://cinema.test/assets/fond-carrousel.png);
+    --background-image-3: url(http://cinema.test/assets/comics.png);
   }

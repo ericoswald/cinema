@@ -10,7 +10,7 @@ include('./../setEnv.php');
 
 $db = new \App\Database('cinema');
 
-$tabPage = ["l404", "salle", "home","quizz"];
+$tabPage = ["l404", "salle", "home","quizz","like","films"];
 
 
 function exist(array $tableauExiste, string $get, string $defaultGateway)

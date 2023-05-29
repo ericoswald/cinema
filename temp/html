@@ -1,0 +1,28 @@
+<div class="swiper-slide swiper-slide-visible" style="width: 320px; margin-right: 16px;"><a
+        href="/evenement/la-quinzaine-des-cineastes-2023"
+        class="underline font-sans cursor-pointer focus:outline-none focus-visible:ring no-underline Link_linkHover__EAV25">
+        <div class="overflow-hidden relative lg-rounded text-white eventPortrait rounded-lg">
+            <div class="relative leading-0"><span
+                    style="box-sizing: border-box; display: inline-block; overflow: hidden; width: 320px; height: 568px; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"><img
+                        alt="Affiche de l'événement La Quinzaine en salle"
+                        src="https://srv-web-vista.mk2.com/CDN/media/entity/get/EventPosterGraphic/0000000288?height=568"
+                        decoding="async" data-nimg="fixed" class="overflow-hidden"
+                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"
+                        srcset="https://srv-web-vista.mk2.com/CDN/media/entity/get/EventPosterGraphic/0000000288?height=568 1x, https://srv-web-vista.mk2.com/CDN/media/entity/get/EventPosterGraphic/0000000288?height=568 2x"></span>
+                <div aria-hidden="true" class="absolute top-0 left-0 right-0 bottom-0 bg-fade-to-t"></div>
+            </div>
+            <div class="py-4 px-4 absolute bottom-0 right-0 left-0 z-10">
+                <ul
+                    class="flex flex-row flex-nowrap uppercase text-sm leading-4 font-heading font-medium TagList_separator__WCmy5 mb-3">
+                    <li class="px-2 first:pl-0 last:pr-0 text-purple-400" style="color:#f4474c">Festival</li>
+                </ul>
+                <div aria-hidden="true">
+                    <h3 class="font-heading font-light text-5xl leading-12 tracking-normal  pb-1">La Quinzaine en salle
+                    </h3>
+                    <h4 class="font-sans font-normal text-base leading-7 tracking-0-1px line-clamp-4">Découvrez les
+                        films de la 55ème édition de la Quinzaine des Cinéastes, sélection parallèle du Festival de
+                        Cannes.</h4>
+                </div>
+            </div>
+        </div>
+    </a></div>
