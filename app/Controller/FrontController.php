@@ -39,7 +39,7 @@ class FrontController
         $mainTemplate = ROOT_PROJECT . '/app/View/quizz.php';
         $title = "Quizz";
 
-        
+
         require ROOT_PROJECT . '/app/View/template.php';
 
 
@@ -52,7 +52,7 @@ class FrontController
         $mainTemplate = ROOT_PROJECT . '/app/View/like.php';
         $title = "Choissisez les films que vous n'aimez pas.";
 
-        
+
         require ROOT_PROJECT . '/app/View/template.php';
 
 
@@ -66,7 +66,20 @@ class FrontController
         $mainTemplate = ROOT_PROJECT . '/app/View/films.php';
         $title = "Liste de vos films.";
 
-        
+
+        require ROOT_PROJECT . '/app/View/template.php';
+
+
+        return ob_get_clean();
+    }
+    public function l404(): string
+    {
+        ob_start();
+
+        $mainTemplate = ROOT_PROJECT . '/app/View/l404.php';
+        $title = "Liste de vos films.";
+
+
         require ROOT_PROJECT . '/app/View/template.php';
 
 

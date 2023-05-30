@@ -97,7 +97,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 8em 10em;
+    padding: 8em 0em;
     height: 100vh;
 
 }
@@ -161,9 +161,16 @@ visibility: hidden;
 
 
 
-@media screen and (max-width: 1920px) {
-    
-}
+@media screen and (max-width: 1536px) {
+  .text-film{
+    align-self: self-end;
+
+  }
+    .text-film h1 {
+        font-size: 2.7em;
+}}
+
+
 
 @media screen and (max-width: 768px) {
  .parent{
@@ -186,8 +193,7 @@ visibility: hidden;
 
 .div1 button{
     width: auto;
-    padding: 0.3em;
-    display: none;
+    padding: 0.5em;
 }
 .div2{
     
@@ -203,8 +209,8 @@ justify-content: normal;
 .block-film i {
     
         position: relative;
-        right: 35vw;
-        top: 15vh;
+        right: 18vw;
+        top: 16vh;
         font-size: 4em;
         color: var(--couleur-rouge-cine);
     }

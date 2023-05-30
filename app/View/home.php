@@ -6,7 +6,7 @@
             <div>
                 <h1>Quel film est fait pour vous ?</h1>
                 <button class="hvr-buzz favorite styled" type="button"><a href="quizz">Faire le quizz !</a></button>
-                
+
             </div>
         </article>
 
@@ -24,8 +24,8 @@
             <div class="content-presentation">
                 <h1>Les comics au cinéma</h1>
                 <span>l'essor des films de style comics au cinéma, leur univers cinématographique
-            partagé et les raisons de leur popularité. Si vous êtes curieux de savoir pourquoi ces films ont connu un
-            tel succès.</span>
+                    partagé et les raisons de leur popularité. Si vous êtes curieux de savoir pourquoi ces films ont connu un
+                    tel succès.</span>
                 <button>En savoir plus</button>
             </div>
         </article>

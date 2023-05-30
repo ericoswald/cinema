@@ -148,12 +148,15 @@ nav ul {
 
 }
 
-
-
 @media only screen and (max-width: 1280px) {
+    body{
+/* border: 10px solid red; */
+    }
+
     header {
         padding: 2rem 0;
         height: auto;
+        width: 100vw;
     }
 
     header img {
@@ -169,15 +172,30 @@ nav ul {
     #secondaire {
         width: auto;
     }
+.quizz h1{
+    display: none;
+}
 
-    #menu-toggle {
-        display: block;
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-        cursor: pointer;
-        opacity: 0;
-        z-index: -1;
+.quizz button{
+    width: 30vw;
+    height: auto;
+}
+.single-item article .content-presentation {
+    width: 70vw!important;
+    position: static!important;
+    justify-content: center!important;
+}
+   .quizz img ,.cannes img,.comics img{
+        display: none!important;
+    }
+    .cannes div,.comics div{
+        /* position: relative; */
+        /* top:30%; */
+        /* background-color: blue; */
+        align-items: center;
+        /* width: 90vw; */
+        /* left: 50%; */
+        /* transform: translate(-50%,-50%); */
     }
 
     label[for="menu-toggle"] {

@@ -11,7 +11,7 @@
             </label>
             <label>
                 <input type="radio" name="q1" value="b">
-                <span>Dauphin</span>
+                <span>Lion</span>
             </label>
             <label>
                 <input type="radio" name="q1" value="c">
@@ -23,8 +23,9 @@
             </label>
         </div>
         <div class="ligne-boutton">
-            <button  class="hvr-backward" style="visibility:hidden;" onclick="previousQuestion(1)">Précédent</button>
-            <button class="hvr-forward " onclick="nextQuestion(1)"><span>Suivant</span><i class="fa-solid fa-arrow-right"></i></button></div>
+            <button class="hvr-backward" style="visibility:hidden;" onclick="previousQuestion(1)">Précédent</button>
+            <button class="hvr-forward " onclick="nextQuestion(1)"><span>Suivant</span><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
     </div>
 
     <!-- Question 2 -->
@@ -34,7 +35,7 @@
         <div class="reponses">
             <label>
                 <input type="radio" name="q2" value="a">
-                <span>L'Egypte Antique</span>
+                <span>Egypte Antique</span>
             </label>
             <label>
                 <input type="radio" name="q2" value="b">
@@ -50,8 +51,10 @@
             </label>
         </div>
         <div class="ligne-boutton">
-        <button  class="hvr-backward"  onclick="previousQuestion(2)"><i class="fa-solid fa-arrow-left"></i><span>Précédent</span></button>
-            <button class="hvr-forward " onclick="nextQuestion(2)"><span>Suivant</span><i class="fa-solid fa-arrow-right"></i></button></div>    </div>
+            <button class="hvr-backward" onclick="previousQuestion(2)"><i class="fa-solid fa-arrow-left"></i><span>Précédent</span></button>
+            <button class="hvr-forward " onclick="nextQuestion(2)"><span>Suivant</span><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
 
     <!-- Question 3 -->
     <div class="question" id="question3">
@@ -77,9 +80,11 @@
             </label>
         </div>
         <div class="ligne-boutton">
-        <button  class="hvr-backward"  onclick="previousQuestion(3)"><i class="fa-solid fa-arrow-left"></i><span>Précédent</span></button>
-        <button class="hvr-forward " onclick="nextQuestion(3)"><span>Suivant</span><i class="fa-solid fa-arrow-right"></i></button></div>    </div>
-    
+            <button class="hvr-backward" onclick="previousQuestion(3)"><i class="fa-solid fa-arrow-left"></i><span>Précédent</span></button>
+            <button class="hvr-forward " onclick="nextQuestion(3)"><span>Suivant</span><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
 
     <!-- Question 4 -->
 
@@ -105,17 +110,19 @@
             </label>
         </div>
         <div class="ligne-boutton">
-        <button  class="hvr-backward"  onclick="previousQuestion(4)"><i class="fa-solid fa-arrow-left"></i><span>Précédent</span></button>
-            <button class="hvr-forward " onclick="nextQuestion(4)"><span>Suivant</span><i class="fa-solid fa-arrow-right"></i></button></div>    </div>
-    
-    <div class="question " id="question5">
-    <!-- Bouton pour soumettre les réponses -->
-    <div class="reveal">
-       
-        <img src="<?= ROOT_URL ?>assets\question1.png" alt="banniere-question1-animals">
-        <h2>Merci d'avoir fais le quizz !</h2>
-        <button type="submit"><a href="like">Voir mes films recommandés</a></button>
+            <button class="hvr-backward" onclick="previousQuestion(4)"><i class="fa-solid fa-arrow-left"></i><span>Précédent</span></button>
+            <button class="hvr-forward " onclick="nextQuestion(4)"><span>Suivant</span><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
     </div>
+
+    <div class="question " id="question5">
+        <!-- Bouton pour soumettre les réponses -->
+        <div class="reveal">
+
+            <img src="<?= ROOT_URL ?>assets\question1.png" alt="banniere-question1-animals">
+            <h2>Merci d'avoir fais le quizz !</h2>
+            <button type="submit"><a href="like">Voir mes films recommandés</a></button>
+        </div>
     </div>
 </div>
 <script>

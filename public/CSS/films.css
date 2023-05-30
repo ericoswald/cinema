@@ -1,8 +1,8 @@
 .page-film {
     /* background-color: purple; */
     width: 40vw;
-    height: 80vh;
-    margin: 12vh  auto;
+    /* height: 80vh; */
+    margin: 16vh  auto;
     display: flex;
 
     flex-direction: column;
@@ -42,6 +42,7 @@ select:focus {
     /* background-color: red; */
     display: flex;
    
+
 
 
 }
@@ -108,7 +109,7 @@ text-align: center;
 
 .film-card {
     /* border: 10px solid red; */
-    width: 40vw;
+    width: 60vw;
     display: flex;
     margin: 3vh auto;
 }
@@ -117,7 +118,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 10vw;
+    width: 15vw;
     object-fit: cover;
 }
 
@@ -133,7 +134,7 @@ text-align: center;
     cursor: pointer;
 }
 .center-description {
-    width: 20vw;
+    width: 25vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -145,7 +146,7 @@ text-align: center;
 }
 
 .right-note {
-    width: 10vw;
+    width: 20vw;
     /* border: 10px solid green; */
     display: flex;
     flex-direction: column;
@@ -189,6 +190,7 @@ text-align: center;
     color: var(--couleur-rouge-cine);
     font-weight: bold;
     border: none;
+    /* width: 15vw; */
 }
 .right-note i{
     font-size: 30px;
@@ -201,5 +203,45 @@ header {
 }
 
 
+@media screen and (max-width: 768px) { 
+    header{
+        /* display: none; */
+    } 
+    .page-film{
+        width: 100vw;
+        margin: 12vh  auto;
+    }
+    .premiere-ligne{
+        width: 100vw;
+        flex-direction: column;
+        align-items:flex-start;
+        margin-top: 3em;
+    }
+    .premiere-ligne div{
+        margin: 1em;
+    }
+    .film-card{
+        /* background-color: blue; */
+        flex-direction: column;
+        width: 70vw;
+        align-items: center;
 
+    }
+    .left-image {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    .center-description {
+        width: 100%;
+        padding: 0;
+    }
+
+    .right-note .note-bubble {
+        display: none;
+    }
+    .right-note{
+        width: auto;
+        margin-bottom: 0;
+    }
+}
   

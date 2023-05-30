@@ -51,17 +51,18 @@
                 <option value="titre_desc">Titre (Z-A)</option>
             </select>
         </div>
-        <div style="display:flex;align-items :center;">
+        <div style="display:none;align-items :center;">
 
             <i class="fa-solid fa-bars"></i>
             <hr style="rotate:90deg;width:20px">
-            <i class="fa-solid fa-bars"></i></div>
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </div>
     <div class="film-card">
 
-        <div class="left-image"><img src="https://image.tmdb.org/t/p/w342/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg"
-                alt="affiche-film-john-wick-chapitre-4">
-            <u><span>Bande-annonce</span></u></div>
+        <div class="left-image"><img src="https://image.tmdb.org/t/p/w342/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg" alt="affiche-film-john-wick-chapitre-4">
+            <u><span>Bande-annonce</span></u>
+        </div>
         <div class="center-description ">
             <h2>John Wick: Chapter 4</h2>
             <span>2023 </span>
@@ -82,9 +83,9 @@
     </div>
     <div class="film-card">
 
-        <div class="left-image"><img src="https://image.tmdb.org/t/p/w342/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg"
-                alt="affiche-film-john-wick-chapitre-4">
-            <u><span>Bande-annonce</span></u></div>
+        <div class="left-image"><img src="https://image.tmdb.org/t/p/w342/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg" alt="affiche-film-john-wick-chapitre-4">
+            <u><span>Bande-annonce</span></u>
+        </div>
         <div class="center-description ">
             <h2>John Wick: Chapter 4</h2>
             <span>2023 </span>
@@ -108,8 +109,8 @@
     const ratingRange = document.getElementById('rating-range');
     const noteValue = document.getElementById('note-value');
 
-    ratingRange.addEventListener('input', function () {
+    ratingRange.addEventListener('input', function() {
         const note = ratingRange.value;
-        noteValue.innerHTML = `${note}`;  
+        noteValue.innerHTML = `${note}`;
     });
 </script>

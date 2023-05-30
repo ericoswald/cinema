@@ -3,12 +3,15 @@
 	width: 100vw;
 	height: 100vh;
 	display: flex;
+	overflow: hidden;
+
 }
 
 #quiz {
 	/* background-color: green; */
 	
 	display: flex;
+
 	/* flex-direction: column; */
 	
 }
@@ -60,26 +63,36 @@
 }
 
 .question label {
-	/* background-color: orange; */
  text-align: center;
  font-size: 2em;
  cursor: pointer;
  /* text-transform: uppercase; */
  font-family: 'Boogaloo';
+ border-radius: 10px;
+ min-width: 10vh;
+
 
  
 	
 }
+.question label:hover span{
+	border: 3px solid var(--couleur-rouge-cine);
+	/* padding: 1em 2em; */
+
+}
 
 .question input[type="radio"]{
-	visibility: hidden;
+	/* visibility: hidden; */
 	height: 0;
 	width: 0;
+	/* padding: 1em 2em; */
+
   }
-.question input[type="radio"]:checked +  span{
+  
+.question input[type="radio"]:checked + span{
 	border: 3px solid var(--couleur-rouge-cine);
   }
-.question span {
+.question label span {
 	/* background-color: brown; */
 	border-radius: 10px;
 	padding: 1em 2em;
@@ -134,3 +147,4 @@ header {
 	color: var(--couleur-rouge-cine);
 	
 }
+header{overflow: hidden;}
